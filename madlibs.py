@@ -1,0 +1,8 @@
+food=input("Write a food: ")
+name=input("Make up a name: ")
+adjective=input("Write an adjective: ")
+noun=input("Write a noun: ")
+food=input("Write a food: ")
+verb_one=input("Write a verb: ")
+verb_two=input("Write another verb: ")
+verb_three=input("Write a third verb: ")
