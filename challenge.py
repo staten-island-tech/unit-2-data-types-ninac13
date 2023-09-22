@@ -1,4 +1,5 @@
-sentence=input("Write a sentence: ")
-
-def count():
-    words = len(sentence.split())
+# sentence=input("Write a sentence: ")
+# broken=sentence.split()
+# print(len(broken))
+x = "test"
+print(f"hello {x}")
