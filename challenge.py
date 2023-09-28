@@ -27,7 +27,21 @@
 
 # bill()
 
-def factors(): 
-    number = input ("Please write a number: ")
+# def factors(): 
+#     number = int(input ("Please write a number: "))
+#     for i in range(1,number+1):
+#         if number % i == 0:
+#             print(i)
+    
+# factors()
 
-
+def gcf ():
+    number1 = int(input ("Write a number: "))
+    number2 = int (input ("Write another number: "))
+    for i in range (1, number1 + 1):
+        x=number1 % i
+    for i in range (1, number2 + 1):
+        y=number2 % i 
+        if x == y:
+            print (x and y)
+gcf()
