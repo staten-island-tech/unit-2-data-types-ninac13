@@ -37,11 +37,18 @@
 
 def gcf ():
     number1 = int(input ("Write a number: "))
-    number2 = int (input ("Write another number: "))
-    for i in range (1, number1 + 1):
-        x=number1 % i
+    for i in range (1, number1+1):
+        if number1%i==0:
+            print(i)
+    listname1=[number1]
+    number2 = int(input ("Write another number: "))
     for i in range (1, number2 + 1):
-        y=number2 % i 
-        if x == y:
-            print (x and y)
+        if number2%i==0:
+            print(i)
+    listname2=[number2]
+    if listname1==listname2:
+        print(" gcf ")
+
+
 gcf()
+
