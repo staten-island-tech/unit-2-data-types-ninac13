@@ -35,16 +35,15 @@
     
 # factors()
 
-def gcf ():
-    number1 = int(input ("Write a number: "))
-    number2 = int(input ("Write another number: "))
-   
-    for i in range (1, number1+1):
-        if number1%i==0:
-            print(i) 
-    for t in range (1, number2 + 1):
-        if number2%t==0:
-            print(t)
-
-gcf()
-
+def gcf (number1, number2):
+    num1 = int(input ("Write a number: "))
+    num2 = int(input ("Write another number: "))
+    if number1 > number2:
+        num = num1
+    else:
+        num = num2
+    for i in range (1, num + 1):
+        if ((num1 % i == 0) and (num2 % i == 0)):
+            print (i) 
+    print ("The gcf of the two numbers is: {i} ")
+gcf(number1, number2)
