@@ -7,6 +7,7 @@ sent()
 
 
 
+
 def num():
     number=input("Write a number: ")
     if int(number) % 2:
@@ -15,6 +16,7 @@ def num():
         print("This number is even")
 
 num()
+
 
 
 
@@ -33,6 +35,7 @@ bill()
 
 
 
+
 def factors(): 
     number = int(input ("Please write a number: "))
     for i in range(1,number+1):
@@ -40,6 +43,7 @@ def factors():
             print(i)
     
 factors()
+
 
 
 
